@@ -1,0 +1,21 @@
+# Local secrets (update password, optional WiFi) - copy secrets.example.h instead
+firmware/include/secrets.h
+
+# Build output and environments
+firmware/.pio/
+.venv/
+__pycache__/
+*.pyc
+
+# GeekMagic's stock firmware is theirs to distribute:
+# https://github.com/GeekMagicClock/smalltv-pro/tree/main/firmware
+firmware/stock-firmware/
+
+# Logo source files (the logo is embedded in firmware/include/webpage.h)
+mark-stripe-echo.png
+since-1999-stripe-echo.svg
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
